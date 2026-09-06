@@ -1,0 +1,18 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Backup files
+*.bak
+*.bak.*
+
+# Omarchy strips these from installed themes anyway (regenerated from
+# colors.toml on install) — never commit them here.
+*.lua
+alacritty.toml
+foot.ini
+ghostty.conf
+kitty.conf
+vscode.json
