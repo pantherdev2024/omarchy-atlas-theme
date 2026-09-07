@@ -1,47 +1,61 @@
 # Atlas
 
-A dark, cinematic Omarchy theme: David Heinemeier Hansson reimagined as the Farnese Atlas, bearing the weight of the Omarchy labyrinth-orb on a mountain built from the same maze pattern — surrounded by a swirling aura of AI coding agents helping hold it up.
-
-## About
-
-Atlas takes the classical "world on his shoulders" myth and reframes it around open source: the burden isn't carried alone, it's built and reinforced by a constantly-swirling aura of AI coding agents and contributors. The palette is pulled directly from the artwork itself — a deep indigo-navy night sky, a warm amber-gold horizon, and a single glowing sage-green accent tying the labyrinth, the orb, and the UI chrome together.
+A dark, cinematic Omarchy theme built around a single idea: nobody carries the weight alone. Atlas kneels on a mountain made of the Omarchy labyrinth, bearing the orb — and the AI coding agents swirling around him are the ones keeping it aloft.
 
 ## Preview
 
-![Atlas preview](backgrounds/atlas.jpg)
+![Atlas theme preview](preview.png)
 
 ## Install
 
-```sh
-omarchy theme install https://github.com/<your-username>/omarchy-atlas-theme
+```bash
+omarchy theme install https://github.com/pantherdev2024/omarchy-atlas-theme
 ```
 
 Then select it:
 
-```sh
+```bash
 omarchy theme set atlas
 ```
 
-## Wallpapers
-
-Three wallpapers are included and available via `omarchy theme bg next`:
-
-| | |
-|---|---|
-| ![atlas](backgrounds/atlas.jpg) | **atlas.jpg** — the main wallpaper, Atlas kneeling atop the labyrinth-mountain under a dawn-gradient sky |
-| ![atlas-monoliths](backgrounds/atlas-monoliths.jpg) | **atlas-monoliths.jpg** — Atlas striking down aging monolithic platforms with lightning |
-| ![atlas-crowd](backgrounds/atlas-crowd.jpg) | **atlas-crowd.jpg** — a crowd gathered beneath the glowing Omarchy orb at dusk |
-
 ## What's Included
 
-```
-colors.toml       — full color palette (drives terminal, editor, shell, and app theming)
-icons.theme       — icon accent preset (Yaru-sage)
-backgrounds/      — the three wallpapers above
-```
+- A deep indigo-navy, amber-horizon, and sage-green palette sampled directly from the wallpaper art rather than picked in the abstract — the desktop and the artwork share the same color grade by construction.
+- A single saturated accent (`#77c778`) carried across window borders, cursor, and shell chrome, with everything else held to muted neutrals so focus reads instantly.
+- Terminal signal colors (`red`, `yellow`, `green`) deliberately boosted past 4.5:1 contrast, so git diffs, test failures, and warnings stay legible instead of dissolving into the mood.
+- Full Omarchy shell treatment — bar, menus, notifications, and lock screen — plus terminal, editor, and app theming generated from `colors.toml`.
+- Three coordinated 3584×2016 wallpapers.
 
-No `.lua`, terminal config, or `vscode.json` files are included — Omarchy regenerates those automatically from `colors.toml` on install.
+## Wallpapers
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="backgrounds/atlas.jpg" width="420" alt="Atlas wallpaper"><br>
+      <sub><b>Atlas</b> — bearing the orb atop the labyrinth mountain</sub>
+    </td>
+    <td align="center">
+      <img src="backgrounds/atlas-monoliths.jpg" width="420" alt="Monoliths wallpaper"><br>
+      <sub><b>Monoliths</b> — lightning against the old guard</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="backgrounds/atlas-crowd.jpg" width="420" alt="Crowd wallpaper"><br>
+      <sub><b>Crowd</b> — the orb at dusk</sub>
+    </td>
+  </tr>
+</table>
+
+Cycle between them with `omarchy theme bg next`.
+
+## Notes
+
+- `colors.toml` is the single source of truth — Omarchy regenerates the terminal, editor, and app configs from it at install time, which is why none of those files ship in this repo.
+- Wallpapers are AI-upscaled to 3584×2016, comfortably above 4K width.
 
 ## Attribution
 
-This is a fan-made, non-commercial homage created for the Omarchy community. Some imagery includes stylized, abstract nods to third-party marks and platforms for thematic/artistic purposes only. All trademarks, logos, and imagery referenced or depicted remain the property of their respective rights holders. This theme is not affiliated with, endorsed by, or sponsored by any company or mark shown or alluded to within it.
+- Theme design and palette by [pantherdev2024](https://github.com/pantherdev2024).
+- Wallpaper artwork was generated for this theme with Grok Imagine and curated for the palette.
+- Some artwork includes stylized, abstract nods to third-party marks for thematic purposes only. All trademarks and imagery remain the property of their respective rights holders. This theme is not affiliated with, endorsed by, or sponsored by any company depicted or alluded to within it.
