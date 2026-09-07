@@ -59,3 +59,4 @@ Cycle between them with `omarchy theme bg next`.
 - Theme design and palette by [pantherdev2024](https://github.com/pantherdev2024).
 - Wallpaper artwork was generated for this theme with Grok Imagine and curated for the palette.
 - Some artwork includes stylized, abstract nods to third-party marks for thematic purposes only. All trademarks and imagery remain the property of their respective rights holders. This theme is not affiliated with, endorsed by, or sponsored by any company depicted or alluded to within it.
+- The MIT license covers this theme's configuration and documentation; the wallpaper artwork is provided for use with the theme.

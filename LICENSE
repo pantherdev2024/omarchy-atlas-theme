@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Note: this license covers the theme's original code and configuration
-(colors.toml, icons.theme, README). The wallpaper images in backgrounds/ are
-AI-generated artwork containing stylized, abstract nods to third-party marks
-for thematic purposes only — see the Attribution section in README.md. All
-referenced trademarks and imagery remain the property of their respective
-rights holders.
