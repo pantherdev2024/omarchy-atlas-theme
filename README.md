@@ -1,6 +1,6 @@
 # Atlas
 
-A dark, cinematic Omarchy theme built around a single idea: nobody carries the weight alone. Atlas kneels on a mountain made of the Omarchy labyrinth, bearing the orb — and the AI coding agents swirling around him are the ones keeping it aloft.
+A dark, cinematic Omarchy theme. Your computer should belong to you — built in the open, not handed down from a platform. And nobody carries that weight alone, least of all now that our coding agents have shown up to help hold the sky (they never sleep, they never complain, and they only occasionally hallucinate a load-bearing wall).
 
 ## Preview
 
